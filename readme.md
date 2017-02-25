@@ -1,5 +1,7 @@
 # micro-service [![Build Status](https://travis-ci.org/tomoat/micro-service.svg?branch=master)](https://travis-ci.org/tomoat/micro-service)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tomoat/micro-service.svg)](https://greenkeeper.io/)
+
 > My prime microservice
 
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/tomoat/micro-service)
