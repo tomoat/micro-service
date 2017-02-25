@@ -29,5 +29,9 @@
     "got": "^6.7.1",
     "test-listen": "^1.0.1",
     "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false
   }
 }
