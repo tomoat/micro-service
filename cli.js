@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 
-'use strict';
+'use strict'
 
-const {spawn} = require('child_process');
-const updateNotifier = require('update-notifier');
-const pkg = require('./package.json');
+const {spawn} = require('child_process')
+const updateNotifier = require('update-notifier')
+const pkg = require('./package.json')
 
-updateNotifier({pkg}).notify();
+updateNotifier({pkg}).notify()
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2)
 spawn('npm', ['start', '--'].concat(args), {
-	cwd: __dirname,
-	stdio: 'inherit'
-});
+  cwd: __dirname,
+  stdio: 'inherit'
+})
